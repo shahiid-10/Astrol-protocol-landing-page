@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "bg-img": "url(./src/assets/background-image.png)",
-        "bg-stars": "url(./src/assets/stars.png)",
+        "bg-img": "url(../src/assets/background-image.png)",
+        "bg-stars": "url(../src/assets/stars.png)",
       },
       fontFamily: {
         custom: ["Fractul"],
