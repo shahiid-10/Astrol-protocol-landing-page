@@ -1,0 +1,13 @@
+/* @import "App.css"; */
+/* @import url(./assets/font/stylesheet.css); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+  .twinkling {
+    @apply h-[30px] grayscale absolute animate-pulse z-[-1]
+  }
+}
