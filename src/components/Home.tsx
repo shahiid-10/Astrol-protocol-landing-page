@@ -79,10 +79,12 @@ export default function Home() {
           <span className="text-[#A5FFA3]">Eclipse</span>
         </h1>
         <h2 className="my-2 text-[1.7rem]">(Launching soon!)</h2>
-        <button className="bg-[#A5FFa3] w-fit text-black font-bold flex items-center gap-[6px] rounded-[45px] text-[1.2rem] font-medium px-[28px] py-[22px]">
-          <img src={CTA_Rocket} alt="" height={24} width={24} />
-          Join Us Early
-        </button>
+        <a href="https://x.com/AstrolFinance/status/1823419787265106351" target="_blank">
+          <button className="bg-[#A5FFa3] hover:bg-[#CFF7CE] mt-1 w-fit text-black  flex items-center gap-[6px] rounded-[45px] text-[1.2rem] font-medium px-[28px] py-[22px]">
+              <img src={CTA_Rocket} alt="" height={24} width={24} />
+              Join Us Early
+          </button>
+        </a>
       </div>
 
       {/* Footer  */}
