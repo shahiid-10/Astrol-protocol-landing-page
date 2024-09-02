@@ -42,7 +42,7 @@ export default function Home() {
               : "hidden md:border-none md:shadow-none md:flex md:items-center md:gap-[20px] md:static"
           }
         >
-          <a href="https://doc.astrol.io/" target="_blank" onClick={() => setMenuOpen(!menuOpen)}>
+          <a href="https://doc.astrol.io/" target="_blank" >
             <img
               src={Docs}
               alt="astrol protocol docs"
@@ -51,7 +51,7 @@ export default function Home() {
               className="cursor-pointer mt-1 md:mt-0"
             />
           </a>
-          <a href="https://x.com/AstrolFinance" target="_blank" onClick={() => setMenuOpen(!menuOpen)}>
+          <a href="https://x.com/AstrolFinance" target="_blank" >
             <img
               src={Twitter}
               alt="astrol protocol twitter"
@@ -60,7 +60,7 @@ export default function Home() {
               className="cursor-pointer mt-2 md:mt-0"
             />
           </a>
-          <a href="https://astrol.io/discord" target="_blank" onClick={() => setMenuOpen(!menuOpen)}>
+          <a href="https://astrol.io/discord" target="_blank" >
             <img
               src={Discord}
               alt="astrol protocol discord"
